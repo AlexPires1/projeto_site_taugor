@@ -489,3 +489,46 @@ section.depoimentos .depoimentos-chamada{
     color: #fff;
     text-decoration: none;
   }
+.redessociais a {
+    display: flex;
+    flex-direction: flex-row;
+    background: #3194db;
+    width: 36px;
+    height: 36px;
+    margin: 5px;
+}
+/*--------------------------------------------------------------
+# Formulário
+--------------------------------------------------------------*/
+
+.formulario {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.formulario form{
+    width:  100%;
+}
+
+.formulario div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.formulario input, textarea{
+    padding: 5px;
+    border-radius:5px;
+    margin: 5px;
+    width: 50%;
+}
+
+.formulario button{
+    background: #3194db;
+    margin: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #FFF;
+    border: 0;
+    align-self: center;
+
+}
